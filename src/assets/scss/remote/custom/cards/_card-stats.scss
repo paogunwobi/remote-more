@@ -1,0 +1,47 @@
+//
+// Card stats
+//
+
+.card-stats {
+    .card-body {
+        padding: 0.8rem .8rem;
+    }
+
+    .card-status-bullet {
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(50%, -50%);
+    }
+}
+
+.card-width-home {
+    max-width: 500px !important;
+}
+
+.spec-pad {
+    padding: 0 !important;
+}
+
+.box-me-up {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.33);
+}
+
+.cursr {
+    cursor: pointer;
+}
+
+// .cursr:focus {
+//     background-color: #754DE8;
+//     color: #fff;
+// }
+
+.cursr:hover {
+    background-color: #f8d9e2;
+}
+
+@media (max-width: 767.5px) {
+    .card-width-home {
+        max-width: 800px !important;
+    }
+}
