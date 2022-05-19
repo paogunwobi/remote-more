@@ -58,14 +58,14 @@ const RepoList = () => {
   return (
     <>
     {user && <DefaultNavbar title={`${user.login}'s Projects`} photoURL={user.avatar_url} displayName={user.name} />}
-    {isLoading && <section className="header section-profile-cover section-shaped bg-gradient-Remote pb-7 pt-5">
+    {isLoading && <section className="header section-profile-cover section-shaped bg-gradient-remote pb-7 pt-5">
         <Container className="pt-5 pb-5">
           <Row className="row-grid justify-content-center pt-5 mx-auto">
               <Oval color="primary" width={50} height={50}/>
           </Row>
         </Container>
       </section>}
-    {!isLoading && <section className="section-profile-cover section-shaped bg-gradient-Remote pb-5 pt-2">
+    {!isLoading && <section className="section-profile-cover section-shaped bg-gradient-remote pb-5 pt-2">
         <Container className="pt-5 pb-5">
           <Row className="row-grid justify-content-center">
             <Col className="text-center" lg="7">
@@ -88,7 +88,7 @@ const RepoList = () => {
                 </Card>
               </div>
               })}
-              {repositories.length === 0 && (<div className="btn-wrapper bg-gradient-Remote mt-5 mb-3">
+              {repositories.length === 0 && (<div className="btn-wrapper bg-gradient-remote mt-5 mb-3">
                 <span className="text-center">No Project Found</span>  
               </div>)}
             </Col>

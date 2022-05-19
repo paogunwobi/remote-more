@@ -80,7 +80,7 @@ const Home = () => {
   
   return (
     <>
-      <section className="header section-profile-cover section-shaped bg-gradient-Remote hide-scroller pb-7 pt-5 pt-md-8">
+      <section className="header section-profile-cover section-shaped bg-gradient-remote hide-scroller pb-7 pt-5 pt-md-8">
         <Container className="pt-5 pb-5">
           <Row className="row-grid justify-content-center">
             <Col className="text-center" lg="6">

@@ -1,8 +1,8 @@
 // Core
 
-@import "Remote/custom/functions";
-@import "Remote/custom/variables";
-@import "Remote/custom/mixins";
+@import "remote/custom/functions";
+@import "remote/custom/variables";
+@import "remote/custom/mixins";
 
 // bootstrap (4.6.0) components
 
@@ -39,7 +39,7 @@
 @import "~bootstrap/scss/utilities";
 @import "~bootstrap/scss/print";
 
-// Remote utilities and components
+// remote utilities and components
 
 @import "remote/custom/reboot";
 @import "remote/custom/utilities";
